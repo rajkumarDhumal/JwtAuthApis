@@ -1,0 +1,7 @@
+
+POST: http://localhost:8080/authenticate -> input Username, password to get jwt
+GET : http://localhost:8080/employee/getById/1 -> get employee by id
+GET : http://localhost:8080/employee/getAll -> get all employees
+PUT : http://localhost:8080/employee/update -> input Employee object to update employee data
+DELETE: http://localhost:8080/employee/delete/4 -> delete employee by id
+GET : http://localhost:8080/employee/city/pune -> get employee by city
